@@ -69,7 +69,7 @@
 					<div class="animate-up">
 						<h2 class="section-title">Professional  Skills</h2>
 						<div class="section-box">
-							<div class="row">							
+							<div class="row">						
 								<div class="col-sm-6">
 									<div class="progress-bar">
 										<div class="bar-data">
@@ -188,7 +188,7 @@
 											</div>
 										</figcaption>
 									</figure>
-
+									
 									<!-- Start: Portfolio Inline Boxes -->
 									<div id="portfolio1-inline1" class="fancybox-inline-box">
                                         <div class="inline-embed" data-embed-type="image" data-embed-url="<?php bloginfo('template_directory');?>/img/uploads/portfolio/portfolio-thumb-05-large.jpg"></div>
@@ -317,23 +317,55 @@
 				<section id="experience" class="section section-experience">
 					<div class="animate-up">
 						<h2 class="section-title">Work Experience</h2>
-
 						<div class="timeline">
 							<div class="timeline-bar"></div>
 							<div class="timeline-inner clearfix">
-							<div class="timeline-box timeline-box-left">
-								<span class="dot"></span>
-								<div class="timeline-box-inner animate-right">
-									<span class="arrow"></span>
-									<div class="date"><?php the_field('date_work_begin'); ?> - <?php the_field('date_work_finish'); ?></div>
-									<h3><?php the_title()?></h3>
-									<h4><?php the_field('work_title'); ?></h4>
-									<p><?php the_description()?></p>
-								</div>
-							</div>
+								<?php 
+									$args = array(
+										'post_type'=> 'experience',
+									);              
+									
+									$the_query = new WP_Query( $args );
+									
+									if($the_query->have_posts() ) : 
+										while ( $the_query->have_posts() ) : 
+										$the_query->the_post(); ?>
+										<?php if ($the_query->current_post % 2 == 0): ?>
+											<div class="timeline-box timeline-box-left">
+											<span class="dot"></span>
+											<div class="timeline-box-inner animate-right">
+												<span class="arrow"></span>
+												<div class="date"><?php the_field('date_work_begin'); ?> - <?php the_field('date_work_finish'); ?></div>
+												<h3><?php the_title()?></h3>
+												<h4><?php the_field('work_title'); ?></h4>
+												<p><?php the_content()?></p>
+											</div>
+										</div>
+										<?php else: ?>
+											<div class="timeline-box timeline-box-right">
+											<span class="dot"></span>
+											<div class="timeline-box-inner animate-left">
+												<span class="arrow"></span>
+												<div class="date"><?php the_field('date_work_begin'); ?> - <?php the_field('date_work_finish'); ?></div>
+												<h3><?php the_title()?></h3>
+												<h4><?php the_field('work_title'); ?></h4>
+												<p><?php the_content()?></p>
+											</div>
+										</div>
+										<?php endif ?>
+										
+										<?php
+										endwhile; 
+										wp_reset_postdata(); 
+									
+									endif;
+									
+								?>
+									
 							</div>
 						</div>
-					</div>	
+					</div>
+					
 				</section><!-- #experience -->
 				
 				<section id="education" class="section section-education">
@@ -342,61 +374,45 @@
 						<div class="timeline">
 							<div class="timeline-bar"></div>
 							<div class="timeline-inner clearfix">
+							<?php 
+									$args = array(
+										'post_type'=> 'education',
+									);              
+									
+									$the_query = new WP_Query( $args );
+									
+									if($the_query->have_posts() ) : 
+										while ( $the_query->have_posts() ) : 
+										$the_query->the_post(); ?>
+										<?php if ($the_query->current_post % 2 == 0): ?>
+											<div class="timeline-box timeline-box-compact timeline-box-left">
+                                    			<span class="dot"></span>
 
-                                <div class="timeline-box timeline-box-compact timeline-box-left">
-                                    <span class="dot"></span>
-
-                                    <div class="timeline-box-inner animate-right">
-                                        <span class="arrow"></span>
-                                        <div class="date"><span>2012 - 2014</span></div>
-                                        <h3>Master of Information Technology</h3>
-                                        <h4>MIT&T</h4>
-                                    </div>
-                                </div>
-
-                                <div class="timeline-box timeline-box-compact timeline-box-right">
-                                    <span class="dot"></span>
-
-                                    <div class="timeline-box-inner animate-left">
-                                        <span class="arrow"></span>
-                                        <div class="date"><span>2008 - 2012</span></div>
-                                        <h3>Bachelor Computer Engineering</h3>
-                                        <h4>Harwarg Universitey</h4>
-                                    </div>
-                                </div>
-
-                                <div class="timeline-box timeline-box-compact timeline-box-left">
-                                    <span class="dot"></span>
-
-                                    <div class="timeline-box-inner animate-right">
-                                        <span class="arrow"></span>
-                                        <div class="date"><span>2007 - 2008</span></div>
-                                        <h3>Certificate for courses of Computer Science</h3>
-                                        <h4>Stanfoorb Universitey</h4>
-                                    </div>
-                                </div>
-
-                                <div class="timeline-box timeline-box-compact timeline-box-right">
-                                    <span class="dot"></span>
-
-                                    <div class="timeline-box-inner animate-left">
-                                        <span class="arrow"></span>
-                                        <div class="date"><span>2007 - 2008</span></div>
-                                        <h3>1 week Courses of Information Systems</h3>
-                                        <h4>Oxforz Universitey</h4>
-                                    </div>
-                                </div>
-							
-								<div class="timeline-box timeline-box-compact timeline-box-left">
-									<span class="dot"></span>
-
-									<div class="timeline-box-inner animate-right">
-										<span class="arrow"></span>
-										<div class="date"><span>2006 - 2007</span></div>
-										<h3>Software Engineering</h3>
-										<h4>Sordonne University</h4>
-									</div>
-								</div>
+                                    			<div class="timeline-box-inner animate-right">
+                                        			<span class="arrow"></span>
+                                        			<div class="date"><?php the_field('date_edu_begin'); ?> - <?php the_field('date_edu_finish'); ?></div>
+													<h3><?php the_title()?></h3>
+													<h4><?php the_field('school'); ?></h4>
+                                    			</div>
+                                			</div>
+										<?php else: ?>
+											<div class="timeline-box timeline-box-right">
+											<span class="dot"></span>
+											<div class="timeline-box-inner animate-left">
+												<span class="arrow"></span>
+												<div class="date"><?php the_field('date_edu_begin'); ?> - <?php the_field('date_edu_finish'); ?></div>
+												<h3><?php the_title()?></h3>
+												<h4><?php the_field('school'); ?></h4>
+											</div>
+										</div>
+										<?php endif ?>
+										
+										<?php
+										endwhile; 
+										wp_reset_postdata(); 
+									endif;
+								?>
+                                
 							</div>
 						</div>
 					</div>	
@@ -450,51 +466,35 @@
 						<h2 class="section-title">References</h2>
 						<div class="section-box">
 							<ul class="ref-slider">
-								<li>
-									<div class="ref-box">
-										<div class="person-speech">
-											<p>I confirm that I have dealt with New Company Ltd since 1998. Their work has been a major factor in our 
-											website's success, helping it to become one of the most visited resources of its kind on the Internet.</p>
-										</div>
-										<div class="person-info clearfix">
-											<img class="person-img" src="<?php bloginfo('template_directory');?>/img/uploads/rs-avatar-60x60.jpg" alt="Headshot">
-											<div class="person-name-title">
-												<span class="person-name">Alexander Jokovich</span>
-												<span class="person-title">Modern LLC , HR</span>
+								<?php
+								$args = array(
+									'post_type'=> 'reference',
+								);       
+								$the_query = new WP_Query( $args );
+									
+								if($the_query->have_posts() ) : 
+									while ( $the_query->have_posts() ) : 
+									$the_query->the_post(); ?>
+									<li>
+										<div class="ref-box">
+											<div class="person-speech">
+												<p><?php the_content(); ?></p>
+											</div>
+											<div class="person-info clearfix">
+												<img class="person-img" src="<?php the_field("profile_picture")?>" alt="Headshot">
+												<div class="person-name-title">
+													<span class="person-name"><?php the_field("person_name")?></span>
+													<span class="person-title"><?php the_field("person_title")?></span>
+												</div>
 											</div>
 										</div>
-									</div>
-								</li>
-								<li>
-									<div class="ref-box">
-										<div class="person-speech">
-											<p>I confirm that New Company Ltd has been a customer of ours since 1998, during which time they have always made payments reliably, 
-											in full and on time.</p>
-										</div>
-										<div class="person-info clearfix">
-											<img class="person-img" src="<?php bloginfo('template_directory');?>/img/uploads/rs-avatar-60x60.jpg" alt="Headshot">
-											<div class="person-name-title">
-												<span class="person-name">Alexander Jokovich</span>
-												<span class="person-title">Modern LLC , HR</span>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li>
-									<div class="ref-box">
-										<div class="person-speech">
-											<p>I have known Robert Smith for 10 years as web developer. I can confirm that he is a man of great integrity, is extremely dedicated 
-											to his family and work, and is entirely peace-loving.</p>
-										</div>
-										<div class="person-info clearfix">
-											<img class="person-img" src="<?php bloginfo('template_directory');?>/img/uploads/rs-avatar-60x60.jpg" alt="Headshot">
-											<div class="person-name-title">
-												<span class="person-name">Alexander Jokovich</span>
-												<span class="person-title">Modern LLC , HR</span>
-											</div>
-										</div>
-									</div>
-								</li>
+									</li>
+								<?php
+								endwhile; 
+								wp_reset_postdata(); 
+								endif;
+								?>
+								
 							</ul>
 							<div class="ref-slider-nav">
 								<span id="ref-slider-prev" class="slider-prev"></span>
@@ -590,25 +590,28 @@
 
                         <div class="blog-grid">
                             <div class="grid-sizer"></div>
-                            	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-                				<?php get_template_part('content'); ?>
-            
-            					<?php endwhile; endif; ?>
-							</div>
+							<?php
+                            $args = array(
+									'post_type'=> 'post',
+								);       
+								$the_query = new WP_Query( $args );
+									
+							if($the_query->have_posts() ) : 
+								while ( $the_query->have_posts() ) : 
+								$the_query->the_post(); 
+								get_template_part("content");
+								
+								
+            				endwhile; endif; ?>
 						</div>
-					</div>	
+					</div>
+					
 				</section> <!--#blog -->
-				
 				<section id="text-section" class="section section-text">
 					<div class="animate-up animated">
-						<h2 class="section-title">Text Section</h2>
+						<h2 class="section-title"><?php the_field("title_section")?></h2>
 						<div class="section-box">
-							<p>Hello! I’m Robert Smith and this is custom editor section. You can add here any text or "Strikethrough" text  and even you can add bulleted or numbered text and even you will be able to add blockquot text. You can align this text to left/right/center.
-
-								One of the most interesting options is to divide this section to "One half" "One Third" and "One Fourth".
-
-								You can use this for Honors or Achievments or Awards sections. You can insert images and photos right in this editor!</p>
+							<p><?php the_field("text_section")?></p>
 						</div>
 					</div>
 				</section><!-- #text-section -->
@@ -766,4 +769,4 @@
                 
             </div><!-- .container -->
         </div><!-- .content -->
-        <?php get_footer(); ?>
+<?php get_footer(); ?>

@@ -589,21 +589,32 @@
 
                         <div class="blog-grid">
                             <div class="grid-sizer"></div>
-                            <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-                			<?php get_template_part('content'); ?>
-            
-            				<?php endwhile; endif; ?>
+							<?php
+                            $args = array(
+									'post_type'=> 'post',
+								);       
+								$the_query = new WP_Query( $args );
+									
+							if($the_query->have_posts() ) : 
+								while ( $the_query->have_posts() ) : 
+								$the_query->the_post(); 
+								get_template_part("content");
+								
+								
+            				endwhile; endif; ?>
 						</div>
 					</div>
 					
 				</section> <!--#blog -->
-				<?php $section = get_field("text_section")?>
 				<section id="text-section" class="section section-text">
 					<div class="animate-up animated">
-						<h2 class="section-title"><?php echo $section["title_section"]?></h2>
+					<h2 class="section-title">Text Section</h2>
 						<div class="section-box">
-							<p><?php echo $section["text_section"]?></p>
+							<p>Hello! I’m Robert Smith and this is custom editor section. You can add here any text or "Strikethrough" text  and even you can add bulleted or numbered text and even you will be able to add blockquot text. You can align this text to left/right/center.
+
+One of the most interesting options is to divide this section to "One half" "One Third" and "One Fourth".
+
+You can use this for Honors or Achievments or Awards sections. You can insert images and photos right in this editor!</p>
 						</div>
 					</div>
 				</section><!-- #text-section -->
