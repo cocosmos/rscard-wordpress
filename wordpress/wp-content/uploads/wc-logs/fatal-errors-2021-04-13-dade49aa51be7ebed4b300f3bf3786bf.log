@@ -1,0 +1,262 @@
+2021-04-13T09:14:43+00:00 CRITICAL Cannot redeclare custom_scripts() (previously declared in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\themes\mipam\functions.php:8) dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\themes\mipam\functions.php à la ligne 25
+
+2021-04-13T09:33:19+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T09:33:49+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T09:34:14+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T09:34:18+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T09:34:31+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T09:36:37+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T09:37:29+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T09:37:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\themes\mipam\functions.php on line 26 and exactly 2 expected in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\themes\mipam\functions.php(26): register_nav_menu(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): custom_theme_setup('')
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-settings.php(538): do_action('after_setup_the...')
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-config.php(98): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(13): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\nav-menu.php à la ligne 136
+
+2021-04-13T09:38:03+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T09:39:14+00:00 CRITICAL syntax error, unexpected variable "$locations", expecting ":" dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\themes\mipam\functions.php à la ligne 25
+
+2021-04-13T09:39:26+00:00 CRITICAL syntax error, unexpected token "=", expecting ":" dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\themes\mipam\functions.php à la ligne 25
+
+2021-04-13T09:40:21+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T09:40:21+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T09:40:41+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T09:41:24+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T09:41:57+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T09:42:09+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T09:45:21+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T09:47:04+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T09:47:10+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T11:37:21+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T12:15:22+00:00 CRITICAL syntax error, unexpected identifier "wp_enqueue_style" dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\themes\rscard\functions.php à la ligne 8
+
+2021-04-13T13:08:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+
+2021-04-13T13:08:25+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php:21
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): ace_disable_payment_gateway_category(Array)
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\class-wc-payment-gateways.php(160): apply_filters('woocommerce_ava...', Array)
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\wc-account-functions.php(118): WC_Payment_Gateways->get_available_payment_gateways()
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(311): wc_get_account_menu_items()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\includes\template.php(1516): WC_Admin_Menus->nav_menu_links(NULL, Array)
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\nav-menus.php(933): do_accordion_sections(Object(WP_Screen), 'side', NULL)
+#7 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\Woojaigopal\woojaigopal.php à la ligne 21
+

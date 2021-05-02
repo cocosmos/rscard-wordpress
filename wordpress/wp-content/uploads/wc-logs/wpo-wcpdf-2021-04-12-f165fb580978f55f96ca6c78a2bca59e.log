@@ -1,0 +1,8 @@
+2021-04-12T15:13:47+00:00 CRITICAL Fatal error: Call to a member function prepare() on null
+2021-04-12T15:16:54+00:00 CRITICAL Fatal error: Call to a member function prepare() on null
+2021-04-12T15:21:16+00:00 CRITICAL Fatal error: Call to a member function query() on null
+2021-04-12T15:21:21+00:00 CRITICAL Fatal error: Call to a member function query() on null
+2021-04-12T15:21:28+00:00 CRITICAL Fatal error: Call to a member function query() on null
+2021-04-12T15:31:49+00:00 CRITICAL Fatal error: Cannot access offset of type string on string
+2021-04-12T16:05:57+00:00 CRITICAL Fatal error: Call to undefined function WPO\WC\PDF_Invoices\Documents\wcpdf_get_pdf_maker()
+2021-04-12T16:06:39+00:00 CRITICAL Fatal error: Call to undefined function WPO\WC\PDF_Invoices\Documents\wcpdf_get_pdf_maker()

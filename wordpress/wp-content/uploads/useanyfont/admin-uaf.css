@@ -1,0 +1,11 @@
+				@font-face {
+					font-family: 'icomoon';
+					src: url('/site/WORDPRESS/wordpress/wp-content/uploads/useanyfont/6651icomoon.woff2') format('woff2'),
+						url('/site/WORDPRESS/wordpress/wp-content/uploads/useanyfont/6651icomoon.woff') format('woff');
+				}
+
+				.icomoon{font-family: 'icomoon' !important;}
+
+				.et_gf_icomoon{background:none !important;font-family:icomoon;text-indent:0 !important;font-size:25px;}
+
+		

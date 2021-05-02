@@ -1,0 +1,30 @@
+2021-04-12T21:27:28+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woo-pdf-invoice-builder\htmlgenerator\OrderValueRetriever.php:45
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woo-pdf-invoice-builder\htmlgenerator\OrderValueRetriever.php(45): method_exists(NULL, 'get_id')
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woo-pdf-invoice-builder\PDFGenerator.php(261): rnwcinv\htmlgenerator\OrderValueRetriever->GetId()
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woo-pdf-invoice-builder\PDFGenerator.php(311): RednaoPDFGenerator->GetOrderId()
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woo-pdf-invoice-builder\PDFGenerator.php(265): RednaoPDFGenerator->Generate(false)
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woo-pdf-invoice-builder\PDFPreview.php(32): RednaoPDFGenerator->GeneratePreview()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woo-pdf-invoice-builder\woocommerce-pdf-invoice-ajax.php(737): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): RednaoWooCommercePDFInvoiceAjax->GetDesignerPreview('')
+#7 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_rednao_...')
+#10 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woo-pdf-invoice-builder\htmlgenerator\OrderValueRetriever.php à la ligne 45
+
+2021-04-12T21:27:35+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woo-pdf-invoice-builder\htmlgenerator\OrderValueRetriever.php:45
+Stack trace:
+#0 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woo-pdf-invoice-builder\htmlgenerator\OrderValueRetriever.php(45): method_exists(NULL, 'get_id')
+#1 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woo-pdf-invoice-builder\PDFGenerator.php(261): rnwcinv\htmlgenerator\OrderValueRetriever->GetId()
+#2 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woo-pdf-invoice-builder\PDFGenerator.php(311): RednaoPDFGenerator->GetOrderId()
+#3 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woo-pdf-invoice-builder\PDFGenerator.php(265): RednaoPDFGenerator->Generate(false)
+#4 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woo-pdf-invoice-builder\PDFPreview.php(32): RednaoPDFGenerator->GeneratePreview()
+#5 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woo-pdf-invoice-builder\woocommerce-pdf-invoice-ajax.php(737): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(292): RednaoWooCommercePDFInvoiceAjax->GetDesignerPreview('')
+#7 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-admin\admin-ajax.php(187): do_action('wp_ajax_rednao_...')
+#10 {main}
+  thrown dans C:\xampp\htdocs\site\WORDPRESS\wordpress\wp-content\plugins\woo-pdf-invoice-builder\htmlgenerator\OrderValueRetriever.php à la ligne 45
+
